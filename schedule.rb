@@ -94,6 +94,30 @@ s = schedule do
 
   lecture "Register allocation" do
   end
+
+  lecture "TBD" do
+  end
+
+  lecture "TBD" do
+  end
+
+  lecture "TBD" do
+  end
+
+  lecture "TBD" do
+  end
+
+  lecture "TBD" do
+  end
+
+  lecture "TBD" do
+  end
+
+  lecture "TBD" do
+  end
+
+  lecture "TBD" do
+  end
 end
 
 puts s.to_html
