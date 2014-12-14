@@ -72,12 +72,7 @@ s = schedule do
   section "Compilers" do
   end
 
-  lecture "Recursive-descent Parsing" do
-  end
-
-  exam do
-     date '2015.04.20'
-     title 'Midterm Exam'
+  lecture "Recursive-descent parsing" do
   end
 
   lecture "Parser combinators" do
@@ -87,6 +82,11 @@ s = schedule do
   end
 
   lecture "Intermediate representations" do
+  end
+
+  exam do
+     date '2015.04.20'
+     title 'Midterm Exam'
   end
 
   lecture "Code generation" do
