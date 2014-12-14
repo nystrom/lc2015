@@ -69,15 +69,15 @@ s = schedule do
   lecture "Static semantics" do
   end
 
-  exam do
-     date '2015.04.20'
-     title 'Midterm'
-  end
-
   section "Compilers" do
   end
 
   lecture "Recursive-descent Parsing" do
+  end
+
+  exam do
+     date '2015.04.20'
+     title 'Midterm Exam'
   end
 
   lecture "Parser combinators" do

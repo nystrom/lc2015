@@ -20,7 +20,7 @@ Schedule.class_eval do
         return "<tr><th scope='row'>#{date}</th><td colspan='5'>#{line.title}</td></tr>"
       elsif line.is_a?(Except)
         date = line.date.strftime("%a %-d %b")
-        return "<tr><th scope='row'>#{date}</th><td colspan='5'>#{line.title}</td></tr>"
+        return "<tr class='no-class'><th scope='row'>#{date}</th><td colspan='5'>#{line.title}</td></tr>"
       else
         return ""
       end
