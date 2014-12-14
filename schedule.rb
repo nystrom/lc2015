@@ -7,20 +7,23 @@ s = schedule do
   first '2015.02.16'
   last  '2015.05.29'
 
-  except '2014.03.19', '<i>No class: San Giuseppe</i>'
-  except '2014.04.03', '<i>No class: Pasqua</i>'
-  except '2014.04.04', '<i>No class: Pasqua</i>'
-  except '2014.04.05', '<i>No class: Pasqua</i>'
-  except '2014.04.06', '<i>No class: Pasqua</i>'
-  except '2014.04.07', '<i>No class: Pasqua</i>'
-  except '2014.04.08', '<i>No class: Pasqua</i>'
-  except '2014.04.09', '<i>No class: Pasqua</i>'
-  except '2014.04.10', '<i>No class: Pasqua</i>'
-  except '2014.04.11', '<i>No class: Pasqua</i>'
-  except '2014.04.12', '<i>No class: Pasqua</i>'
-  except '2014.05.01', '<i>No class: Festa dei lavoratori</i>'
-  except '2014.05.14', '<i>No class: Ascensione</i>'
-  except '2014.05.25', '<i>No class: Pentecoste</i>'
+  except '2015.03.19', '<i>No class: San Giuseppe</i>'
+  except '2015.04.03', '<i>No class: Pasqua</i>'
+  except '2015.04.04', '<i>No class: Pasqua</i>'
+  except '2015.04.05', '<i>No class: Pasqua</i>'
+  except '2015.04.06', '<i>No class: Pasqua</i>'
+  except '2015.04.07', '<i>No class: Pasqua</i>'
+  except '2015.04.08', '<i>No class: Pasqua</i>'
+  except '2015.04.09', '<i>No class: Pasqua</i>'
+  except '2015.04.10', '<i>No class: Pasqua</i>'
+  except '2015.04.11', '<i>No class: Pasqua</i>'
+  except '2015.04.12', '<i>No class: Pasqua</i>'
+  except '2015.05.01', '<i>No class: Festa dei lavoratori</i>'
+  except '2015.05.14', '<i>No class: Ascensione</i>'
+  except '2015.05.25', '<i>No class: Pentecoste</i>'
+
+  section "Introduction" do
+  end
 
   lecture "Introduction" do
   end
