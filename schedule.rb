@@ -22,10 +22,10 @@ s = schedule do
   except '2014.05.14', '<i>No class: Ascensione</i>'
   except '2014.05.25', '<i>No class: Pentecoste</i>'
 
-  section "Introduction" do
+  lecture "Introduction" do
   end
 
-  lecture "Introduction" do
+  section "Functional programming" do
   end
 
   lecture "Haskell crash course" do
