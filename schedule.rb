@@ -45,10 +45,10 @@ s = schedule do
   lecture "Advanced functional programming" do
   end
 
-  lecture "Functors, Applicatives, Monads" do
+  lecture "Functors, applicatives, monads" do
   end
 
-  lecture "Bind, State Monad, Introduction to Parsec" do
+  lecture "Bind, State monad" do
   end
 
   section "Interpreters" do
@@ -78,15 +78,21 @@ s = schedule do
   lecture "Parser combinators" do
   end
 
-  lecture "Closure conversion" do
+  lecture "Parser combinators, Parsec" do
   end
 
-  lecture "Intermediate representations" do
+  lecture "Parser generators, Alex and Happy" do
   end
 
   exam do
      date '2015.04.20'
      title 'Midterm Exam'
+  end
+
+  lecture "Closure conversion" do
+  end
+
+  lecture "Intermediate representations" do
   end
 
   lecture "Code generation" do
