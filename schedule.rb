@@ -51,25 +51,7 @@ s = schedule do
   lecture "Bind, State monad" do
   end
 
-  section "Interpreters" do
-  end
-
-  lecture "Interpreters" do
-  end
-
-  lecture "Operational semantics" do
-  end
-
-  lecture "Functions, scope, control flow" do
-  end
-
-  lecture "Static typing and typing rules" do
-  end
-
-  lecture "Static semantics" do
-  end
-
-  section "Compilers" do
+  section "Parsing" do
   end
 
   lecture "Recursive-descent parsing" do
@@ -84,12 +66,37 @@ s = schedule do
   lecture "Parser generators, Alex and Happy" do
   end
 
+  section "Interpreters" do
+  end
+
+  lecture "Interpreters" do
+    out "Write an interpreter for JavaScript expressions"
+  end
+
+  lecture "Operational semantics and interpreters" do
+  end
+
+  lecture "Functions, scope, control flow" do
+    out "Extend interpreter with functions and closures"
+  end
+
+  lecture "Static typing and typing rules" do
+    out "Write a type checker"
+  end
+
+  lecture "Static semantics" do
+  end
+
+  section "Compilers" do
+  end
+
   exam do
      date '2015.04.20'
      title 'Midterm Exam'
   end
 
   lecture "Closure conversion" do
+    out "Closure conversion"
   end
 
   lecture "Intermediate representations" do
@@ -98,10 +105,10 @@ s = schedule do
   lecture "Code generation" do
   end
 
-  lecture "Register allocation" do
+  lecture "x86 or LLVM" do
   end
 
-  lecture "TBD" do
+  lecture "Register allocation" do
   end
 
   lecture "TBD" do
