@@ -80,14 +80,17 @@ s = schedule do
     out "Extend interpreter with functions and closures"
   end
 
+  section "Compilers" do
+  end
+
+  lecture "Compilers 101" do
+  end
+
   lecture "Static typing and typing rules" do
     out "Write a type checker"
   end
 
   lecture "Static semantics" do
-  end
-
-  section "Compilers" do
   end
 
   exam do
