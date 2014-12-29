@@ -45,10 +45,13 @@ s = schedule do
   lecture "Advanced functional programming" do
   end
 
+  lecture "Testing and debugging Haskell, QuickCheck" do
+  end
+
   lecture "Functors, applicatives, monads" do
   end
 
-  lecture "Bind, State monad" do
+  lecture "Bind, state monad" do
   end
 
   section "Parsing" do
@@ -112,9 +115,6 @@ s = schedule do
   end
 
   lecture "Register allocation" do
-  end
-
-  lecture "TBD" do
   end
 
   lecture "TBD" do
