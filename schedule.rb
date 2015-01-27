@@ -111,7 +111,7 @@ s = schedule do
   lecture "Code generation" do
   end
 
-  lecture "x86 or LLVM" do
+  lecture "x86 or LLVM or C" do
   end
 
   lecture "Register allocation" do
