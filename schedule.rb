@@ -39,7 +39,7 @@ s = schedule do
     prep '<a href="http://learnyouahaskell.com/chapters">Learn You a Haskell</a> Ch. 4&ndash;6, 8'
   end
 
-  lecture "Types, higher-order functions" do
+  lecture "Higher-order functions" do
   end
 
   lecture "Advanced functional programming" do
@@ -64,6 +64,7 @@ s = schedule do
   end
 
   lecture "Parser combinators, Parsec" do
+    out "Write a parser for JavaScript expressions"
   end
 
   lecture "Parser generators, Alex and Happy" do
