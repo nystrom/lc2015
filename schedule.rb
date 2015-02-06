@@ -106,6 +106,9 @@ s = schedule do
     out "Closure conversion"
   end
 
+  lecture "Objects" do
+  end
+
   lecture "Intermediate representations" do
   end
 
@@ -116,6 +119,10 @@ s = schedule do
   end
 
   lecture "Register allocation" do
+  end
+
+  lecture "Garbage collection" do
+    out "Write a mark/sweep garbage collector"
   end
 
   lecture "TBD" do
