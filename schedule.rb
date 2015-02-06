@@ -127,9 +127,6 @@ s = schedule do
 
   lecture "TBD" do
   end
-
-  lecture "TBD" do
-  end
 end
 
 puts s.to_html
