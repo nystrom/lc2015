@@ -84,6 +84,11 @@ s = schedule do
     out "Extend interpreter with functions and closures"
   end
 
+  exam do
+     date '2015.04.15'
+     title 'Midterm Exam'
+  end
+
   section "Compilers" do
   end
 
@@ -95,11 +100,6 @@ s = schedule do
   end
 
   lecture "Static semantics" do
-  end
-
-  exam do
-     date '2015.04.20'
-     title 'Midterm Exam'
   end
 
   lecture "Closure conversion" do
